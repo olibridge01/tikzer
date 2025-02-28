@@ -1,0 +1,57 @@
+# Python/Backend
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.log
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+temp.tex
+temp.pdf
+temp.svg
+temp_label.tex
+temp_label.pdf
+temp_label.svg
+
+# React/Frontend
+node_modules/
+*.log
+npm-debug.log*
+yarn-error.log
+yarn-debug.log*
+.DS_Store
+dist/
+build/
+coverage/
+
+# Environment
+.env
+venv/
+virtualenv/
+env/
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Editor/IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Git-specific
+.gitattributes
+.gitignore.backup
